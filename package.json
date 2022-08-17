@@ -2,7 +2,7 @@
     "name": "composer-Intelephense",
     "displayName": "Composer Intelephense",
     "description": "Intelephense for composer the PHP dependency manager.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         "Kai Niklas",
         "Muath"
