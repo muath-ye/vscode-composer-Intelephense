@@ -7,7 +7,7 @@ const global = require('./util/globals');
 
 export function activate(context: vscode.ExtensionContext) {
 
-	console.log("composer-intellisense activated");
+	console.log("composer-Intelephense activated");
 
 	global.extensionContext = context;
 

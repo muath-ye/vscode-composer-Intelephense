@@ -1,10 +1,10 @@
-# VSCode Composer Intellisense
+# VSCode Composer Intelephense
 
-[![Current Version](https://vsmarketplacebadge.apphb.com/version/kainiklas.composer-intellisense.svg)](https://marketplace.visualstudio.com/items?itemName=kainiklas.composer-intellisense)
-[![Install Count](https://vsmarketplacebadge.apphb.com/installs/kainiklas.composer-intellisense.svg)](https://marketplace.visualstudio.com/items?itemName=kainiklas.composer-intellisense)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating/kainiklas.composer-intellisense.svg)](https://marketplace.visualstudio.com/items?itemName=kainiklas.composer-intellisense)
+[![Current Version](https://vsmarketplacebadge.apphb.com/version/muath-ye.composer-Intelephense.svg)](https://marketplace.visualstudio.com/items?itemName=muath-ye.composer-Intelephense)
+[![Install Count](https://vsmarketplacebadge.apphb.com/installs/muath-ye.composer-Intelephense.svg)](https://marketplace.visualstudio.com/items?itemName=muath-ye.composer-Intelephense)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating/muath-ye.composer-Intelephense.svg)](https://marketplace.visualstudio.com/items?itemName=muath-ye.composer-Intelephense)
 
-This [Visual Studio Code](https://code.visualstudio.com/) plugin offers intellisense for the PHP dependency manager [Composer](https://getcomposer.org/). 
+This [Visual Studio Code](https://code.visualstudio.com/) plugin offers Intelephense for the PHP dependency manager [Composer](https://getcomposer.org/).
 
 ![Autocomplete](images/autocomplete.gif)
 
@@ -23,48 +23,17 @@ This [Visual Studio Code](https://code.visualstudio.com/) plugin offers intellis
 
 You should have [Composer](https://getcomposer.org/) installed. But the plugin is actually not relying on it.
 
-## Known Issues
+## Installation
 
-- No known issues.
+- Open VS Code and click on Extensions Icon in the Activity Bar.
+- Type:
 
-## Release Notes
+    ```bat
+    muath-ye.vscode-composer-Intelephense
+    ```
 
-### 0.6.0
+- Install the Extension Pack.
 
-**Fixed**
+## Credit
 
-- Extension behaviour adapted to work properly with latest version of VSCode
-
-### 0.5.0
-
-**Added**
-
-- Hover over package names includes latest versions of package
-- Cache for packagist API calls
-
-### 0.4.0
-
-**Added**
-
-- Hover over package names to get insights about the installed package
-
-### 0.3.0
-
-**Added**
-
-- Suggests package version based on the latest 20 versions with opinionated format `"^major.minor"`
-
-### 0.2.0
-
-**Added**
-
-- Display currently installed package version on open and save of file
-
-**Changed**
-- Accepting autocomplete suggestion adds a snippet for the version number 
-
-### 0.1.0
-
-**Added**
-
-- Autocomplete of package name `[Crtl+Space]`
+This is a fork from [vscode-composer-intellisense](https://github.com/kainiklas/vscode-composer-intellisense)

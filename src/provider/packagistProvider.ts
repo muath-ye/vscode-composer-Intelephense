@@ -6,7 +6,7 @@ const CACHE = require('vscode-cache');
 
 const headers = {
     "Accept": 'application/json',
-    "User-Agent": 'vscode-composer-intellisense | kai.niklas@web.de'
+    "User-Agent": 'vscode-composer-Intelephense | kai.niklas@web.de'
 };
 
 export async function getPackageVersions(packageName: string): Promise<string[]> {
@@ -65,7 +65,7 @@ export async function getAllPackageVersions(packageName: string): Promise<string
         });
 
         // cache the versions for 1h
-        let cacheTimeout = vscode.workspace.getConfiguration('composerIntellisense').get('packagistCache');
+        let cacheTimeout = vscode.workspace.getConfiguration('composerIntelephense').get('packagistCache');
         cache.put(packageName, versions, cacheTimeout);
 
     } catch (error) {

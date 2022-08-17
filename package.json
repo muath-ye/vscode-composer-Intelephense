@@ -1,75 +1,91 @@
 {
-  "name": "composer-intellisense",
-  "displayName": "Composer IntelliSense",
-  "description": "Intellisense for composer.json, PHP dependency manager.",
-  "version": "0.6.0",
-  "author": "Kai Niklas",
-  "publisher": "kainiklas",
-  "license": "MIT",
-  "icon": "composer-intellisense.png",
-  "homepage": "https://github.com/kainiklas/vscode-composer-intellisense/blob/master/README.md",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kainiklas/vscode-composer-intellisense.git"
-  },
-  "bugs": {
-    "url": "https://github.com/kainiklas/vscode-composer-intellisense/issues"
-  },
-  "categories": [
-    "Programming Languages"
-  ],
-  "keywords": [
-    "php",
-    "composer",
-    "dependency",
-    "manager",
-    "autocomplete"
-  ],
-  "engines": {
-    "vscode": "^1.67.0"
-  },
-  "activationEvents": [
-    "onLanguage:json"
-  ],
-  "main": "./out/extension.js",
-  "contributes": {
-    "configuration": [
-      {
-        "title": "Composer Intellisense",
-        "properties": {
-          "composerIntellisense.packagistCache": {
-            "type": "integer",
-            "default": 1200,
-            "minimum": 60,
-            "description": "Specifies how long requests to packagist are cached [seconds]"
-          }
-        }
-      }
-    ]
-  },
-  "scripts": {
-    "vscode:prepublish": "npm run compile",
-    "compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./",
-    "pretest": "npm run compile && npm run lint",
-    "lint": "eslint src --ext ts",
-    "test": "node ./out/test/runTest.js"
-  },
-  "devDependencies": {
-    "@types/glob": "^7.2.0",
-    "@types/mocha": "^9.1.1",
-    "@types/node": "14.x",
-    "@types/vscode": "^1.67.0",
-    "@typescript-eslint/eslint-plugin": "^5.21.0",
-    "@typescript-eslint/parser": "^5.21.0",
-    "@vscode/test-electron": "^2.1.3",
-    "eslint": "^8.14.0",
-    "glob": "^8.0.1",
-    "mocha": "^9.2.2",
-    "typescript": "^4.6.4"
-  },
-  "dependencies": {
-    "axios": "^0.27.2",
-    "vscode-cache": "^0.3.0"
-  }
+    "name": "composer-Intelephense",
+    "displayName": "Composer Intelephense",
+    "description": "Intelephense for composer the PHP dependency manager.",
+    "version": "1.0.0",
+    "authors": [
+        "Kai Niklas",
+        "Muath"
+    ],
+    "publisher": "muath-ye",
+    "license": "MIT",
+    "icon": "composer-Intelephense.png",
+    "homepage": "https://github.com/muath-ye/vscode-composer-Intelephense/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/muath-ye/vscode-composer-Intelephense.git"
+    },
+    "bugs": {
+        "url": "https://github.com/muath-ye/vscode-composer-Intelephense/issues"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [
+        "php",
+        "composer",
+        "dependency",
+        "manager",
+        "autocomplete",
+        "Language",
+        "references",
+        "symbols",
+        "PHP Extension",
+        "PHPStorm",
+        "PHPStorm Extension",
+        "PHPStorm composer Hints",
+        "PHPStorm composer Hints in VScode",
+        "composer Hints in VS Code",
+        "composer Hints",
+        "muath-ye",
+        "composer hints",
+        "PHP composer hint",
+        "PHP composer hints",
+        "composer.json"
+    ],
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "activationEvents": [
+        "onLanguage:json"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "configuration": [{
+            "title": "Composer Intelephense",
+            "properties": {
+                "composerIntelephense.packagistCache": {
+                    "type": "integer",
+                    "default": 1200,
+                    "minimum": 60,
+                    "description": "Specifies how long requests to packagist are cached [seconds]"
+                }
+            }
+        }]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "pretest": "npm run compile && npm run lint",
+        "lint": "eslint src --ext ts",
+        "test": "node ./out/test/runTest.js"
+    },
+    "devDependencies": {
+        "@types/glob": "^7.2.0",
+        "@types/mocha": "^9.1.1",
+        "@types/node": "14.x",
+        "@types/vscode": "^1.67.0",
+        "@typescript-eslint/eslint-plugin": "^5.21.0",
+        "@typescript-eslint/parser": "^5.21.0",
+        "@vscode/test-electron": "^2.1.3",
+        "eslint": "^8.14.0",
+        "glob": "^8.0.1",
+        "mocha": "^9.2.2",
+        "typescript": "^4.6.4"
+    },
+    "dependencies": {
+        "axios": "^0.27.2",
+        "vscode-cache": "^0.3.0"
+    }
 }
