@@ -6,7 +6,14 @@
 
 This [Visual Studio Code](https://code.visualstudio.com/) plugin offers Intelephense for the PHP dependency manager [Composer](https://getcomposer.org/).
 
+Currently installed Composer package hint
+![hint](images/composer-hint.png)
+
+Real autocomplete
 ![Autocomplete](images/autocomplete.gif)
+
+Hover a package to get more info
+![Autocomplete](images/hover-package-for-info.png)
 
 ## Features
 
