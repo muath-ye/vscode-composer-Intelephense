@@ -1,9 +1,5 @@
 # VSCode Composer Intelephense
 
-[![Current Version](https://vsmarketplacebadge.apphb.com/version/muath-ye.composer-Intelephense.svg)](https://marketplace.visualstudio.com/items?itemName=muath-ye.composer-Intelephense)
-[![Install Count](https://vsmarketplacebadge.apphb.com/installs/muath-ye.composer-Intelephense.svg)](https://marketplace.visualstudio.com/items?itemName=muath-ye.composer-Intelephense)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating/muath-ye.composer-Intelephense.svg)](https://marketplace.visualstudio.com/items?itemName=muath-ye.composer-Intelephense)
-
 This [Visual Studio Code](https://code.visualstudio.com/) plugin offers Intelephense for the PHP dependency manager [Composer](https://getcomposer.org/).
 
 Currently installed Composer package hint
